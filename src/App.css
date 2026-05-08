@@ -7,7 +7,6 @@
   --bg-light: #f8f9fa;
 }
 
-/* Apply them to your components */
 header {
   background-color: var(--blue);
   color: var(--white);
@@ -23,14 +22,13 @@ button {
 }
 
 button:hover {
-  background-color: var(--gray); /* Changes to gray on hover */
+  background-color: var(--gray);
 }
 
 .project-card h3 {
   color: var(--text-main);
 }
 
-/* Container Layout */
 .App {
   max-width: 1200px;
   margin: 0 auto;
@@ -38,7 +36,6 @@ button:hover {
   font-family: 'Inter', sans-serif;
 }
 
-/* Responsive Grid */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -46,7 +43,6 @@ button:hover {
   margin-top: 40px;
 }
 
-/* Card Styling */
 .project-card {
   border: 1px solid var(--gray);
   border-radius: 12px;
@@ -71,7 +67,6 @@ button:hover {
   padding: 0 15px;
 }
 
-/* Form & Search Styling */
 .project-form, .search-container {
   background: var(--bg-light);
   padding: 20px;

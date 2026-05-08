@@ -9,12 +9,10 @@ function ProjectForm({ onAddProject }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validate that fields aren't empty
     if (!formData.name || !formData.image) return;
 
     onAddProject(formData);
     
-    // Clear the form after submission
     setFormData({ name: "", image: "", description: "" });
   };
 
